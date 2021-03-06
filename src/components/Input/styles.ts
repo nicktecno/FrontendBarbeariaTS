@@ -7,6 +7,7 @@ interface ContainerProps {
   isFilled: boolean;
   isErrored: boolean;
 }
+// acrescenta propriedades no container, visto que ele é uma div e nao tem essas propriedades naturalmente
 
 export const Container = styled.div<ContainerProps>`
   background: #232129;
